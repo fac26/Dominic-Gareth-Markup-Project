@@ -1,15 +1,12 @@
-/* Some sensible defaults... */
-
+/* Custom properties */
 :root { 
-  /* The default text size in browsers is 16px. So, the default size of 1rem is 16px. */
+  
       --letter-spacing: 0.1rem;
      
       --fs: 1rem;
 
-  
   /* The below gradient has colour stops to soften top/bottom. */
       --card-grad: #eee8e8 0%, #ff5f1f80 10%, #00cccc80 70%, #eee8e8 100%;
-    
   } 
   
 * {
@@ -45,15 +42,20 @@
     max-width: 100%;
     height: auto;
   }
-  
-  /* The layout primitives for you to use */
 
-.center {
+  .center {
     max-width: 40rem;
     margin-left: auto;
     margin-right: auto;
   }
   
+  .row {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-content: center;
+  }
+
   .width-sm {
     max-width: 20rem;
   }
@@ -82,43 +84,7 @@
     margin-top: 4rem;
   }
   
-  .row {
-    display: flex;
-    gap: 1rem;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-items: center;
-  }
-
-  .flex-column {
-    display: flex;
-    gap: 1rem;
-    flex-flow: column wrap;
-    align-items: center;
-    justify-content: center;
-  }
   
-  .gap-lg {
-    gap: 2rem;
-  }
-  
-  .gap-xl {
-    gap: 4rem;
-  }
-  
-  .justify-space-between {
-    justify-content: space-between;
-  }
-  
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
-    gap: 1rem;
-  }
-  
-  .column-lg {
-    grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
-  }
 
   /* specific styles  */
 
