@@ -4,9 +4,18 @@
     box-sizing: border-box;
     margin: 0;
   }
+
+  html {
+    font-size: var(--fs);
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: var(--letter-spacing);
+  }
   
   body {
-    font-family: Helvetica, sans-serif;
+    max-width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: hsla(160, 3%, 88%, 0.53);
   }
   
   a {
@@ -66,6 +75,7 @@
     gap: 1rem;
     flex-wrap: wrap;
     align-items: center;
+    justify-items: center;
   }
 
   .flex-column {
@@ -98,6 +108,11 @@
   }
 
   /* specific styles  */
+
+
+  #biography-section {
+    min-height: 100vh;
+  }
 
   .bio-profile-pic {
     max-width: 17rem;
