@@ -1,4 +1,16 @@
 /* Some sensible defaults... */
+
+:root { 
+  /* The default text size in browsers is 16px. So, the default size of 1rem is 16px. */
+      --letter-spacing: 0.1rem;
+     
+      --fs: 1rem;
+
+  
+  /* The below gradient has colour stops to soften top/bottom. */
+      --card-grad: #eee8e8 0%, #ff5f1f80 10%, #00cccc80 70%, #eee8e8 100%;
+    
+  } 
   
 * {
     box-sizing: border-box;
@@ -15,7 +27,7 @@
     max-width: 90vw;
     margin-left: auto;
     margin-right: auto;
-    background-color: hsla(160, 3%, 88%, 0.53);
+    background-color: #f7f1f1;
   }
   
   a {
@@ -83,6 +95,7 @@
     gap: 1rem;
     flex-flow: column wrap;
     align-items: center;
+    justify-content: center;
   }
   
   .gap-lg {
@@ -117,6 +130,20 @@
   .bio-profile-pic {
     max-width: 17rem;
     border-radius: 50%;
+  }
+
+  .card-styles {
+    background-image: linear-gradient(var(--card-grad));
+    border-radius: 5%;
+    
+  }
+
+  .paragraph-margin {
+    margin: 1rem;
+  }
+
+  .header-margin {
+    margin: 1rem;
   }
   
   
