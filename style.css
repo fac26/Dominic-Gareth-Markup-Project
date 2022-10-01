@@ -6,7 +6,7 @@
       --fs: 1rem;
 
   /* The below gradient has colour stops to soften top/bottom. */
-      --card-grad: #eee8e8 0%, #ff5f1f80 10%, #00cccc80 70%, #eee8e8 100%;
+      --card-grad: #eee8e8 0%, rgba(255, 105, 180, 0.485) 10%, rgba(102, 51, 153, 0.485) 70%, #eee8e8 100%;
   } 
   
 * {
@@ -24,7 +24,7 @@
     max-width: 90vw;
     margin-left: auto;
     margin-right: auto;
-    background-color: #f7f1f1;
+    background-color: #eee8e8;
   }
   
   a {
