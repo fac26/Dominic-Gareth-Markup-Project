@@ -53,7 +53,7 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     gap: 1rem;
   }
 
@@ -63,6 +63,10 @@
     justify-content: center;
     align-items: center;
     gap: 1rem;
+  }
+
+  .justify-space-evenly {
+    justify-content: space-evenly;
   }
 
   .width-sm {
@@ -95,7 +99,7 @@
   
   
 
-  /* specific styles  */
+  /* biography section specific styles  */
 
 
   #biography-section {
@@ -119,6 +123,16 @@
 
   .header-margin {
     margin: 1rem;
+  }
+
+  /* navigation section specific styles */
+
+  #navbar {
+    padding: 1.5rem;
+    background-color: black;
+    color: white;
+    position: sticky;
+    top: 0px;
   }
   
   
