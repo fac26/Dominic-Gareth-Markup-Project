@@ -6,7 +6,7 @@
       --fs: 1rem;
 
   /* The below gradient has colour stops to soften top/bottom. */
-      --card-grad: #eee8e8 0%, rgba(255, 105, 180, 0.485) 10%, rgba(102, 51, 153, 0.485) 70%, #eee8e8 100%;
+      --card-grad: #eee8e8 0%, rgba(108, 105, 255, 0.485) 10%, rgba(51, 143, 153, 0.485) 70%, #eee8e8 100%;
   } 
   
 * {
@@ -53,7 +53,7 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     gap: 1rem;
   }
 
@@ -63,6 +63,10 @@
     justify-content: center;
     align-items: center;
     gap: 1rem;
+  }
+
+  .justify-space-evenly {
+    justify-content: space-evenly;
   }
 
   .width-sm {
@@ -93,9 +97,12 @@
     margin-top: 4rem;
   }
   
-  
+  /* Section start rule below must be added to each section the navbar jumps to to stop the navbar covering the section header*/
+  .section-start {
+    padding-top: 76px;
+  }
 
-  /* specific styles  */
+  /* biography section specific styles  */
 
 
   #biography-section {
@@ -119,6 +126,16 @@
 
   .header-margin {
     margin: 1rem;
+  }
+
+  /* navigation section specific styles */
+
+  #navbar {
+    padding: 1.5rem;
+    background-color: black;
+    color: white;
+    position: sticky;
+    top: 0px;
   }
   
   
