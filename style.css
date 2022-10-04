@@ -106,7 +106,7 @@
   /* biography section specific styles  */
 
 
-  #biography-section {
+  .section-min-height {
     min-height: 100vh;
   }
 
