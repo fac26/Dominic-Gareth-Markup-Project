@@ -1,6 +1,6 @@
 # Dominic-Gareth-Markup-Project
 
-## Our task - Build an agency website for our team.
+## Our task - Build an agency website.
 
 ### 🚴Simpson & Jones Ltd. Cycle Couriers🚴
 
