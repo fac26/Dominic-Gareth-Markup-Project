@@ -25,6 +25,7 @@
     margin-left: auto;
     margin-right: auto;
     background-color: #eee8e8;
+    margin-bottom: 20px;
   }
   
   a {
@@ -138,4 +139,26 @@
     top: 0px;
   }
   
-  
+  /* Contact Us form */
+
+  #contact-us {
+    max-width: 40rem;
+    margin: auto;
+    border: 2px solid hsl(180, 26%, 61%);
+    padding: 15px 25px 15px 15px;
+  }
+
+input, textarea, fieldset, button, label {
+    width: 100%;
+    margin: 5px;  
+}
+
+.checkboxstyle {
+  justify-content: flex-start;
+  display: inline;
+  margin: 5px;  
+
+}
+
+
+ 
