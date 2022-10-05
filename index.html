@@ -4,26 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Simpson & Jones Ltd. Cycle Couriers</title>
   </head>
 
-  <body>
-    <h1>Contact</h1>
-  </body>
+  <body id="home">
+    <header id="navbar">
+      <nav>
+        <ul class="row justify-space-evenly">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#biography-section">About Us</a></li>
+          <li><a href="#contact-us">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
 
-    <section class="stack-md" id="biography-section">
+    <section class="section-start stack-md section-min-height" id="biography-section"> 
+      <header class="column">
+        <h1>S&J Cycle Couriers</h1>
+        <p>
+          It's a winter Monday morning, the weather is awful but the traffic is
+          worse and you've just realised you failed to send a integral parcel to
+          a client due 20 minuets ago! What do you do? Our fleet of
+          professional, seasoned cycle couriers will deliver regardless of
+          weather, strikes or back to back traffic jams. Trust the legs of a
+          courier to deliver.
+        </p>
+      </header>
 
       <header class="row">
         <h2 class="header-margin">Rider Biographies</h2>
       </header>
 
       <section class="row">
-        
         <article class="column center card-styles">
           <h2 class="header-margin">Sims</h2>
-          <img class="bio-profile-pic" src="yaroslav-boshnakov-OzggbKG8hf8-unsplash.jpg"
-          alt="black and white photograph of Sims riding in the shadows, through a town square in Italy.">
+          <img
+            class="bio-profile-pic"
+            src="images/cycle-courier-on-bike-in-the-sun.jpg"
+            alt="black and white photograph of Sims riding in the shadows, through a town square in Italy."
+          >
           <p class="paragraph-margin">
             Riding for 20 years come rain or shine in London, New York and
             Tokyo, Sims is a cycle courier you can depend on to get your package
@@ -32,8 +52,11 @@
         </article>
         <article class="column center card-styles">
           <h2 class="header-margin">Gaz</h2>
-          <img class="bio-profile-pic" src="adriel-prastyanto-UmmowWQb9D8-unsplash.jpg"
-            alt="colour photo of Gaz sitting on their internal geared hybrid bike, in the sun, on a volleyball court wearing a medical mask. The photo is taken on a hot day with palm trees in the background">
+          <img
+            class="bio-profile-pic"
+            src="images/cycle-courier-riding-through-italian-square.jpg"
+            alt="colour photo of Gaz sitting on their internal geared hybrid bike, in the sun, on a volleyball court wearing a medical mask. The photo is taken on a hot day with palm trees in the background"
+          >
           <p class="paragraph-margin">
             Gaz has been riding since a nipper and delivering on time, every
             time for years. Gaz has never had a late delivery; we kid you not,
@@ -41,39 +64,40 @@
           </p>
         </article>
       </section>
-    
     </section>
 
     <section id="contact-us">
       <div class="stack-md">
         <h2 class="header-margin">Contact Us</h2>
 
-      <form id="form" action="https://learn-forms.netlify.com/submit/part3" method="GET">
-      
-        <label for="name">Name</label>
-        <input id="name" name="name" type="text" required>
+        <form
+          id="form"
+          action="https://learn-forms.netlify.com/submit/part3"
+          method="GET"
+        >
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" required>
 
-        <label for="companyname">Company Name</label>
-        <input id="companyname" name="companyname" type="text" required>
+          <label for="company-name">Company Name</label>
+          <input id="company-name" name="company-name" type="text" required>
 
-        <label for="email">Email</label>
-        <input id="email" name="email" type="email" required>
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required>
 
-        <label for="tel">Telephone</label>
-        <input id="tel" name="tel" type="tel">
+          <label for="tel">Telephone</label>
+          <input id="tel" name="tel" type="tel">
 
-        <label for="message">Message</label>
-        <textarea name="message" id="message"></textarea>
+          <label for="message">Message</label>
+          <textarea name="message" id="message"></textarea>
 
-        <input id="marketingConsent" name="marketingConsent" type="checkbox">
-        <label for="marketingConsent" class="checkbox">Click to receive newsletters from Simpson & Jones Ltd.</label>
+          <div class="checkboxstyle">
+            <input id="marketing-consent" name="marketing-consent" type="checkbox">
+            <label for="marketing-consent" class="checkbox">Click to receive newsletters from Simpson & Jones Ltd.</label>
+          </div>
 
-        <button type="submit">Submit</button>
-      
-      </form>
-
-    </div>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
     </section>
-
   </body>
 </html>
