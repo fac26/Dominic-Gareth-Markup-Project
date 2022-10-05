@@ -136,11 +136,9 @@ input, textarea, fieldset, button, label {
     margin: 5px;  
 }
 
-.checkboxstyle {
-  justify-content: flex-start;
-  display: inline;
-  margin: 5px;  
-
+input[type="checkbox"] {
+  display: flex;
+  left: 10px;
 }
 
 
