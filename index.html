@@ -11,23 +11,27 @@
     <title>Simpson & Jones Ltd. Cycle Couriers</title>
   </head>
 
-  <body id="home">
+  <body>
     <header id="navbar">
       <nav>
         <ul class="row justify-space-evenly">
           <li><a href="#home">Home</a></li>
-          <li><a href="#biography-section">About Us</a></li>
+          <li><a href="#biography-section">Our Couriers</a></li>
           <li><a href="#contact-us">Contact Us</a></li>
         </ul>
       </nav>
     </header>
 
-    <section
-      class="section-start stack-md section-min-height"
-      id="biography-section"
-    >
-      <header class="column">
+    <section class="stack-md" id="home">
+      <header
+        class="column home-section-min-height section-start justify-space-around"
+      >
         <h1>S&J Cycle Couriers</h1>
+        <img
+          class="img"
+          src="/Dominic-Gareth-Markup-Project/images/4-young-couriers.jpg"
+          alt="a group of young cycle couriers from the early 20th century standing with their bikes"
+        />
         <p>
           It's a winter Monday morning, the weather is awful but the traffic is
           worse and you've just realised you failed to send a integral parcel to
@@ -37,7 +41,9 @@
           courier to deliver.
         </p>
       </header>
+    </section>
 
+    <section id="biography-section" class="section-start full-vh stack-xl">
       <header class="row">
         <h2 class="header-margin">Rider Biographies</h2>
       </header>
@@ -72,9 +78,9 @@
       </section>
     </section>
 
-    <section id="contact-us">
+    <section id="contact-us" class="full-vh section-start">
       <div class="stack-md">
-        <h2 class="header-margin">Contact Us</h2>
+        <h2 class="header-margin section-start">Contact Us</h2>
 
         <form
           id="form"

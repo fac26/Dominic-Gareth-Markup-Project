@@ -70,12 +70,20 @@
     justify-content: space-evenly;
   }
 
+  .justify-space-around {
+    justify-content: space-around;
+  }
+
   .width-sm {
     max-width: 20rem;
   }
 
   .width-md {
     max-width: 40rem;
+  }
+
+  .min-width-sm {
+    min-width: 30rem;
   }
   
   .width-lg {
@@ -106,7 +114,11 @@
   /* biography section specific styles  */
 
 
-  .section-min-height {
+  .home-section-min-height {
+    min-height: calc(100vh - 76px);
+  }
+
+  .full-vh {
     min-height: 100vh;
   }
 
@@ -144,7 +156,7 @@
   #contact-us {
     max-width: 40rem;
     margin: auto;
-    border: 2px solid hsl(180, 26%, 61%);
+    /* border: 2px solid hsl(180, 26%, 61%); */
     padding: 15px 25px 15px 15px;
   }
 
