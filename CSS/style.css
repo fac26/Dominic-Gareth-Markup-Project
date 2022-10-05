@@ -74,16 +74,16 @@
     justify-content: space-around;
   }
 
-  .align-content-space-around {
-    align-content: space-around;
-  }
-
   .width-sm {
     max-width: 20rem;
   }
 
   .width-md {
     max-width: 40rem;
+  }
+
+  .min-width-sm {
+    min-width: 30rem;
   }
   
   .width-lg {
