@@ -1,0 +1,161 @@
+/* Custom properties */
+:root { 
+  
+      --letter-spacing: 0.1rem;
+     
+      --fs: 1rem;
+
+  /* The below gradient has colour stops to soften top/bottom. */
+      --card-grad: #eee8e8 0%, rgba(108, 105, 255, 0.485) 10%, rgba(51, 143, 153, 0.485) 70%, #eee8e8 100%;
+  } 
+  
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+
+  html {
+    font-size: var(--fs);
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: var(--letter-spacing);
+  }
+  
+  body {
+    max-width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #eee8e8;
+    margin-bottom: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .center {
+    max-width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .justify-space-evenly {
+    justify-content: space-evenly;
+  }
+
+  .width-sm {
+    max-width: 20rem;
+  }
+
+  .width-md {
+    max-width: 40rem;
+  }
+  
+  .width-lg {
+    max-width: 60rem;
+  }
+  
+  .stack-sm > * + * {
+    margin-top: 0.5rem;
+  }
+  
+  .stack-md > * + * {
+    margin-top: 1rem;
+  }
+  
+  .stack-lg > * + * {
+    margin-top: 2rem;
+  }
+  
+  .stack-xl > * + * {
+    margin-top: 4rem;
+  }
+  
+  /* Section start rule below must be added to each section the navbar jumps to to stop the navbar covering the section header*/
+  .section-start {
+    padding-top: 76px;
+  }
+
+  /* biography section specific styles  */
+
+
+  #biography-section {
+    min-height: 100vh;
+  }
+
+  .bio-profile-pic {
+    max-width: 17rem;
+    border-radius: 50%;
+  }
+
+  .card-styles {
+    background-image: linear-gradient(var(--card-grad));
+    border-radius: 5%;
+    
+  }
+
+  .paragraph-margin {
+    margin: 1rem;
+  }
+
+  .header-margin {
+    margin: 1rem;
+  }
+
+  /* navigation section specific styles */
+
+  #navbar {
+    padding: 1.5rem;
+    background-color: black;
+    color: white;
+    position: sticky;
+    top: 0px;
+  }
+  
+  /* Contact Us form */
+
+  #contact-us {
+    max-width: 40rem;
+    margin: auto;
+    border: 2px solid hsl(180, 26%, 61%);
+    padding: 15px 25px 15px 15px;
+  }
+
+input, textarea, fieldset, button, label {
+    width: 100%;
+    margin: 5px;  
+}
+
+.checkboxstyle {
+  justify-content: flex-start;
+  display: inline;
+  margin: 5px;  
+
+}
