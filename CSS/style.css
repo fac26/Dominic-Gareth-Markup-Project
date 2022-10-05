@@ -114,8 +114,12 @@
   /* biography section specific styles  */
 
 
-  .section-min-height {
+  .home-section-min-height {
     min-height: calc(100vh - 76px);
+  }
+
+  .full-vh {
+    min-height: 100vh;
   }
 
   .bio-profile-pic {
