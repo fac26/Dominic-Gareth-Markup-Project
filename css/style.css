@@ -113,6 +113,7 @@ min-height: 100vh;
 .bio-profile-pic {
 max-width: 17rem;
 border-radius: 50%;
+max-height: auto;
 }
 
 .card-styles {
@@ -129,7 +130,7 @@ margin: 1rem;
 margin: 1rem;
 }
 
-/* navigation section specific styles */
+/* navigation sect  ion specific styles */
 
 #navbar {
 padding: 1.5rem;
@@ -148,9 +149,29 @@ border: 2px solid hsl(180, 26%, 61%);
 padding: 15px 25px 15px 15px;
 }
 
+legend {
+display: flex;
+flex-flow: row wrap;
+justify-content: center;
+align-items: center;
+gap: 1rem;
+font-size: 1.25rem;
+font-weight: bold;
+}
+
+
 input, textarea, fieldset, button, label {
 width: 100%;
-margin: 5px;  
+margin: 15px 0 15px 0;  
+}
+
+input[type=text], input[type=email], input[type=tel], textarea {
+  margin: 10px 0 20px 0;
+}
+
+textarea {
+  width: 100%;
+	height: 100px;
 }
 
 .checkboxstyle {
