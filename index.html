@@ -4,24 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link
+      rel="stylesheet"
+      href="css/style.css">
     <title>Simpson & Jones Ltd. Cycle Couriers</title>
   </head>
 
-  <body id="home">
+  <body>
     <header id="navbar">
       <nav>
         <ul class="row justify-space-evenly">
           <li><a href="#home">Home</a></li>
-          <li><a href="#biography-section">About Us</a></li>
+          <li><a href="#biography-section">Our Couriers</a></li>
           <li><a href="#contact-us">Contact Us</a></li>
         </ul>
       </nav>
     </header>
 
-    <section class="section-start stack-md section-min-height" id="biography-section"> 
-      <header class="column">
+    <section class="stack-md" id="home">
+      <header
+        class="column home-section-min-height section-start justify-space-around"
+      >
         <h1>S&J Cycle Couriers</h1>
+        <img
+          class="img"
+          src="images/4-young-couriers.jpg"
+          alt="a group of young cycle couriers from the early 20th century standing with their bikes"
+        >
         <p>
           It's a winter Monday morning, the weather is awful but the traffic is
           worse and you've just realised you failed to send a integral parcel to
@@ -31,7 +40,9 @@
           courier to deliver.
         </p>
       </header>
+    </section>
 
+    <section id="biography-section" class="section-start full-vh stack-xl">
       <header class="row">
         <h2 class="header-margin">Rider Biographies</h2>
       </header>
@@ -39,12 +50,11 @@
       <section class="row">
         <article class="column center card-styles">
           <h2 class="header-margin">Sims</h2>
-          
           <img
-            class="bio-profile-pic" 
-            src="images/cycle-courier-on-bike-in-the-sun.jpg" 
-            alt="black and white photograph of Sims riding in the shadows, through a town square in Italy">
-
+            class="bio-profile-pic"
+            src="images/cycle-courier-on-bike-in-the-sun.jpg"
+            alt="black and white photograph of Sims riding in the shadows, through a town square in Italy."
+          >
           <p class="paragraph-margin">
             Riding for 20 years come rain or shine in London, New York and
             Tokyo, Sims is a cycle courier you can depend on to get your package
@@ -68,15 +78,19 @@
       </section>
     </section>
 
-    <section id="contact-us">
+    <section id="contact-us" class="full-vh section-start">
+      
       <div class="stack-md">
-        <legend>Contact Us</legend>
 
         <form
           id="form"
           action="https://learn-forms.netlify.com/submit/part3"
-          method="GET"
-        >
+          method="GET">
+
+        <fieldset>
+
+          <legend>Contact Us</legend>
+
           <label for="name">Name</label>
           <input id="name" name="name" type="text" required>
 
@@ -92,14 +106,16 @@
           <label for="message">Message</label>
           <textarea name="message" id="message"></textarea>
 
-          <div class="checkboxstyle">
-            <input id="marketing-consent" name="marketing-consent" type="checkbox">
-            <label for="marketing-consent" class="checkbox">Click to receive newsletters from Simpson & Jones Ltd.</label>
-          </div>
+          <input id="marketing-consent" name="marketing-consent" type="checkbox">
+          <label for="marketing-consent" class="checkbox">Click to receive newsletters from Simpson & Jones Ltd.</label>
 
           <button type="submit">Submit</button>
-        </form>
-      </div>
+        
+        </fieldset>
+        
+      </form>
+      
+    </div>
     </section>
   </body>
 </html>
