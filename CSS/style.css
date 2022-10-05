@@ -156,7 +156,7 @@
   #contact-us {
     max-width: 40rem;
     margin: auto;
-    border: 2px solid hsl(180, 26%, 61%);
+    /* border: 2px solid hsl(180, 26%, 61%); */
     padding: 15px 25px 15px 15px;
   }
 
