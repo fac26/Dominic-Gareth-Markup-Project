@@ -150,7 +150,18 @@
 
 input, textarea, fieldset, button, label {
     width: 100%;
-    margin: 5px;  
+    margin: 5px;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], textarea {
+    margin: 10px 0 10px 0;
+}
+
+textarea {
+    width: 100%;
+	height: 100%;
+	font-size: 16px;
+	padding: 10px;
 }
 
 .checkboxstyle {
