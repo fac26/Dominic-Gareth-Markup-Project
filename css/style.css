@@ -112,6 +112,10 @@
   .home-section-min-height {
     min-height: calc(100vh - 76px);
   }
+  
+  .contact-section-min-height {
+    min-height: calc(100vh - 100px);
+  }
 
   .full-vh {
     min-height: 100vh;
