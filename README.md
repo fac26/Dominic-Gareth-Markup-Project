@@ -17,9 +17,6 @@ For this project we decided to build a website for a cycle courier agency ✨
 
 ### Mockup of website:!
 
-[GarethandDominic_MarkupProject_Mockup](https://user-images.githubusercontent.com/52511353/194264845-13170006-7ab0-42fe-847b-74b4f96f9b4a.jpg)
-
-
-
+(https://user-images.githubusercontent.com/52511353/194264987-7eefbdc3-7cf7-4d28-899a-bbce8d04eb28.jpg)
 
 
