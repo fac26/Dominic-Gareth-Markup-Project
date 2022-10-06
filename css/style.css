@@ -109,8 +109,11 @@
 
   /* biography section specific styles  */
 
+  .home-section-min-height {
+    min-height: calc(100vh - 76px);
+  }
 
-  #biography-section {
+  .full-vh {
     min-height: 100vh;
   }
 
