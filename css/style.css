@@ -70,6 +70,10 @@
     justify-content: space-evenly;
   }
 
+ .justify-space-around {
+    justify-content: space-around;
+  }
+
   .width-sm {
     max-width: 20rem;
   }
