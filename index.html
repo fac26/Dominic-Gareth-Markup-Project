@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link
       rel="stylesheet"
-      href="/Dominic-Gareth-Markup-Project/CSS/style.css"
-    />
+      href="css/style.css">
     <title>Simpson & Jones Ltd. Cycle Couriers</title>
   </head>
 
@@ -29,9 +28,9 @@
         <h1>S&J Cycle Couriers</h1>
         <img
           class="img"
-          src="/Dominic-Gareth-Markup-Project/images/4-young-couriers.jpg"
+          src="images/4-young-couriers.jpg"
           alt="a group of young cycle couriers from the early 20th century standing with their bikes"
-        />
+        >
         <p>
           It's a winter Monday morning, the weather is awful but the traffic is
           worse and you've just realised you failed to send a integral parcel to
@@ -53,9 +52,9 @@
           <h2 class="header-margin">Sims</h2>
           <img
             class="bio-profile-pic"
-            src="/Dominic-Gareth-Markup-Project/images/cycle-courier-on-bike-in-the-sun.jpg"
+            src="images/cycle-courier-on-bike-in-the-sun.jpg"
             alt="black and white photograph of Sims riding in the shadows, through a town square in Italy."
-          />
+          >
           <p class="paragraph-margin">
             Riding for 20 years come rain or shine in London, New York and
             Tokyo, Sims is a cycle courier you can depend on to get your package
@@ -64,11 +63,12 @@
         </article>
         <article class="column center card-styles">
           <h2 class="header-margin">Gaz</h2>
+          
           <img
             class="bio-profile-pic"
-            src="/Dominic-Gareth-Markup-Project/images/cycle-courier-riding-through-italian-square.jpg"
-            alt="colour photo of Gaz sitting on their internal geared hybrid bike, in the sun, on a volleyball court wearing a medical mask. The photo is taken on a hot day with palm trees in the background"
-          />
+            src="images/cycle-courier-riding-through-italian-square.jpg"
+            alt="colour photo of Gaz sitting on their internal geared hybrid bike, in the sun, on a volleyball court wearing a medical mask. The photo is taken on a hot day with palm trees in the background">
+          
           <p class="paragraph-margin">
             Gaz has been riding since a nipper and delivering on time, every
             time for years. Gaz has never had a late delivery; we kid you not,
@@ -79,42 +79,43 @@
     </section>
 
     <section id="contact-us" class="full-vh section-start">
+      
       <div class="stack-md">
-        <h2 class="header-margin section-start">Contact Us</h2>
 
         <form
           id="form"
           action="https://learn-forms.netlify.com/submit/part3"
-          method="GET"
-        >
-          <label for="name">Name</label>
-          <input id="name" name="name" type="text" required />
+          method="GET">
 
-          <label for="companyname">Company Name</label>
-          <input id="companyname" name="companyname" type="text" required />
+        <fieldset>
+
+          <legend>Contact Us</legend>
+
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" required>
+
+          <label for="company-name">Company Name</label>
+          <input id="company-name" name="company-name" type="text" required>
 
           <label for="email">Email</label>
-          <input id="email" name="email" type="email" required />
+          <input id="email" name="email" type="email" required>
 
           <label for="tel">Telephone</label>
-          <input id="tel" name="tel" type="tel" />
+          <input id="tel" name="tel" type="tel">
 
           <label for="message">Message</label>
           <textarea name="message" id="message"></textarea>
 
-          <div class="checkboxstyle">
-            <input
-              id="marketingConsent"
-              name="marketingConsent"
-              type="checkbox"
-            />
-            <label for="marketingConsent" class="checkbox"
-              >Click to receive newsletters from Simpson & Jones Ltd.</label
-            >
-          </div>
+          <input id="marketing-consent" name="marketing-consent" type="checkbox">
+          <label for="marketing-consent" class="checkbox">Click to receive newsletters from Simpson & Jones Ltd.</label>
+
           <button type="submit">Submit</button>
-        </form>
-      </div>
+        
+        </fieldset>
+        
+      </form>
+      
+    </div>
     </section>
   </body>
 </html>
